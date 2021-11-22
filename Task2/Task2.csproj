@@ -43,8 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IMedia.cs" />
+    <Compile Include="IPlayable.cs" />
+    <Compile Include="IRecordable.cs" />
+    <Compile Include="Mkv.cs" />
+    <Compile Include="Mp3.cs" />
+    <Compile Include="PlayerItem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Wav.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
